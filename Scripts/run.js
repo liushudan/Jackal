@@ -36,9 +36,6 @@ function init(){
     canvas.onmousedown = mouseDown;
 //    canvas.onmouseup = mouseUp;
     canvas.onmousemove = mouseMove;
-//    var test_cell = new Cell(canvas,100,150,50,60);
-//    canvas.cell = test_cell;keys
-//    test_cell.draw();
     timer = setInterval(draw, 20);
 //    var keys = Object.keys(window);
     var arrows = [0,0,0,0,1,0,0,1];
