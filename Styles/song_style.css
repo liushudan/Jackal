@@ -1,0 +1,8 @@
+.link:hover{
+    color: blue;
+    cursor: pointer;
+}
+.song{
+    display: none;
+    border: 1px solid #000000;
+}

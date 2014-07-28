@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../static/js/base.js"></script>
+    <script>
+        $(document).ready( function(){
+
+            $( "#isPrivate" ).change(function() {
+                console.log($('#isPrivate').prop("checked"));
+    });
+        });
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css">
+    <style>
+        body{
+            background: white;
+            color: #151515;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper{
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .name{
+            margin: 100px auto 0 auto;
+            width: 500px;
+            height: 200px;
+            background-color: black;
+            color: white;
+            font-size: 35px;
+            text-align: right;
+        }
+
+        .menu{
+            width: 100%;
+            text-align: center;
+        }
+
+        .menu ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu ul li{
+            display: inline;
+            font-size: 30px;
+        }
+
+        .letter{
+            margin: 50px auto;
+            border: 0;
+            position: absolute;
+        }
+
+        /*#isPrivate{*/
+            /*visibility: hidden;*/
+
+        /*}*/
+        /*#isPrivate + label{*/
+            /*margin: 20px 10px 10px -25px;*/
+            /*-webkit-touch-callout: none;*/
+            /*-webkit-user-select: none;*/
+            /*-khtml-user-select: none;*/
+            /*-moz-user-select: none;*/
+            /*-ms-user-select: none;*/
+            /*-o-user-select: none;*/
+            /*user-select: none;*/
+            /*color: #4a4a4a;*/
+            /*font-size: 30px;*/
+            /*padding: 5px;*/
+            /*border: 1px solid #4a4a4a;*/
+        /*}*/
+
+        /*#isPrivate:checked + label{*/
+            /*background-color: #4a4a4a;*/
+            /*color: white;*/
+            /*border: 1px solid white;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="letter">
+        <form>
+            <textarea style="height: 450px; width: 800px; margin-bottom: 20px"></textarea>
+            <br>
+            <input type="checkbox" id="isPrivate" checked="checked">
+            <label for="isPrivate" style="cursor: pointer;">Bla</label>
+        </form>
+    </div>
+</div>
+</body>
+</html>

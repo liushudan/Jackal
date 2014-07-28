@@ -1,0 +1,32 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    height: 900px;
+    background-color: #d0f3a6;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    background-color: #a6bfe8;
+}
+.header .text{
+    padding-top: 40px;
+    font-family: "Segoe Script,Comic Sans MS";
+    font-size: 24pt;
+    color: #313131;
+}
+.content{
+    width: 100%;
+    height: 80%;
+    background-color: #e8d1ce;
+    background-image: url(../Images/3.png);
+    background-size: cover;
+    overflow: scroll;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid black;
+}

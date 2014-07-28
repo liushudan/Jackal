@@ -1,0 +1,136 @@
+@font-face {
+font-family: "Helvetica Neue";
+src: url("http://fast.fonts.net/dv2/2/072d8516-5d40-44bc-b694-65b3c8bd8fa5.eot?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc");
+src: url("http://fast.fonts.net/dv2/2/072d8516-5d40-44bc-b694-65b3c8bd8fa5.eot?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc#iefix") format("embedded-opentype"),
+    url("http://fast.fonts.net/dv2/3/723fd1ed-5aad-454d-af88-3711c5caf1c7.woff?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc") format("woff"),
+    url("http://fast.fonts.net/dv2/1/2a81d94e-d365-4f5f-9957-7e96414d6a72.ttf?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc") format("truetype"),
+    url("http://fast.fonts.net/dv2/11/6be38bc3-96b3-47e3-a9ef-e1a184b54d64.svg?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc#svgFontName") format("svg");
+}
+#closePriorityBox{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    width: 110px;
+    height: 30px;
+    float: left;
+    font-size: 10px;
+    color: #E6E6E6;
+    background-color: #808080;
+}
+
+
+#closePrioritySetter{
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    float: right;
+}
+
+#infoBar{
+    letter-spacing: 0.1em;
+    width: 100%;
+    height: 200px;
+    background-color: #3C3F41;
+    padding: 0 !important;
+    border: 0;
+    position: fixed;
+    /*bottom: 0;*/
+    bottom: -185px;
+    left: 0;
+    font-family: "Helvetica Neue";
+}
+
+#switcher{
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    background-color: #595D5F;
+    cursor: pointer;
+}
+
+#variablesBorder{
+    margin: 10px;
+    height: 30%;
+    border: 1px solid #808080;
+}
+
+#varText{
+    position: relative;
+    width: 100px;
+    padding: 0 5px;
+    left: 20px;
+    top: -10px;
+    color: #E6E6E6;
+    background-color: #3C3F41;
+}
+
+#variables{
+    letter-spacing: 0;
+    width: 99%;
+    position: relative;
+    height: 50%;
+    margin: 0 10px;
+    color: #E6E6E6;
+    overflow-x: auto;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+#logsBorder{
+    margin: 10px;
+    height: 45%;
+    border: 1px solid #808080;
+}
+
+#logText{
+    position: relative;
+    width: 37px;
+    padding: 0 5px;
+    left: 20px;
+    top: -10px;
+    color: #E6E6E6;
+    background-color: #3C3F41;
+}
+
+#logs{
+    width: 99%;
+    position: relative;
+    height: 70%;
+    margin: 0 10px;
+    color: #E6E6E6;
+    overflow-x: auto;
+}
+
+.variable{
+    margin: 0 10px;
+    float: left;
+    height: 24px;
+    background-color: #808080;
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.variableName{
+    padding: 0 10px;
+    background-color: #595D5F;
+    float: left;
+}
+
+.variableMining{
+    background-color: #727678;
+    padding: 0 10px;
+    float: left;
+}
+
+.clr{
+    background-color: #FF9E87;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 10px;
+    float: left;
+}
+.clr:hover{
+    background-color: #FF0000;
+}
